@@ -36,19 +36,26 @@
 
 
 
-izoh={'integer':'bu oddiy son',
-      'else':"yoki ma'nosini anglatadi",
-      'string':'kod yozilgan qator',
-      'if':'agar',
-      'for':'takrorlanish',
-      'title':'stringni bosh harf bilan chiqaradi',
-      'upper':'hammasini katta harfda chiqaradi'
-      }
-soz=input("Kalit so'z kiriting: ")
 
-if soz in izoh:
-    print(f"{soz.title()} so\'zi {izoh[soz]} deb tarjima qilinadi")
-else:
-    print("Bunday so\'z mavjud emas!")
+# izoh={'integer':'butun son',
+#       'else':"yoki",
+#       'string':'matn',
+#       'if':'agar',
+#       'for':'uchun',
+#       'title':'sarlavha',
+#       'upper':'katta'
+#       }
+# kalit=input("Kalit so'z kiriting: ").lower()
+# print(izoh.get(kalit,"Bunday so\'z mavjud emas"))
+
+
+
+# if kalit in izoh:
+#     print(f"{kalit.title()} so\'zi {izoh[kalit]} deb tarjima qilinadi")
+# else:
+#     print("Bunday so\'z mavjud emas!")
+
+
+
 
 
