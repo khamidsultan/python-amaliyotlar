@@ -17,6 +17,25 @@
 # =============================================================================
 
 
+# =============================================================================
+# izoh={'integer':'bu oddiy son',
+#       'else':"yoki ma'nosini anglatadi",
+#       'string':'kod yozilgan qator',
+#       'if':'agar',
+#       'for':'takrorlanish',
+#       'title':'stringni bosh harf bilan chiqaradi',
+#       'upper':'hammasini katta harfda chiqaradi'
+#       }
+# soz=input("Kalit so'z kiriting: ")
+# 
+# if soz in izoh:
+#     print(izoh[soz])
+# else:
+#     print("Bunday so\'z mavjud emas!")
+# ============================================================================
+
+
+
 izoh={'integer':'bu oddiy son',
       'else':"yoki ma'nosini anglatadi",
       'string':'kod yozilgan qator',
@@ -25,10 +44,11 @@ izoh={'integer':'bu oddiy son',
       'title':'stringni bosh harf bilan chiqaradi',
       'upper':'hammasini katta harfda chiqaradi'
       }
-soz=input("So'z kiriting: ")
+soz=input("Kalit so'z kiriting: ")
 
 if soz in izoh:
-    print(izoh[soz])
+    print(f"{soz.title()} so\'zi {izoh[soz]} deb tarjima qilinadi")
 else:
-    print("bunday soz yoq")
-        
+    print("Bunday so\'z mavjud emas!")
+
+
