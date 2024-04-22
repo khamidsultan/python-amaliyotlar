@@ -1,2 +1,2 @@
 # python-exercises
-https://python.sariq.dev saytidagi darslarning amaliyotlari
+Python exercise taks solutions by me in https://python.sariq.dev 
